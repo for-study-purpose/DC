@@ -1,0 +1,30 @@
+clc;
+clear all;
+close all;
+t=0:0.001:1;
+fc = input('Enter Frequency of Carrier Sine Wave: ');
+fm = input('Enter message frequency: ');
+amp = input('Enter the carrier and message signal amplitude: ');
+m = square(2*pi*fm*t);
+subplot(3,1,1);
+plot(t, m);
+xlabel('Time(s)');
+ylabel('Amplitude');
+title('Message Signal (Square Wave)');
+grid on;
+C = amp*sin(2*pi*fc*t);
+subplot(3,1,2);
+plot(t, C);
+xlabel('Time(s)');
+ylabel('Amplitude');
+title('Message Signal (Square Wave)');
+grid on;
+X = C .* m;
+subplot(3, 1, 3);
+plot(t, X);
+xlabel('Time(s)');
+ylabel('Amplitude');
+title('Message Signal (Square Wave)');
+grid on;
+
+%ip => 20 \n 2 \n 5
