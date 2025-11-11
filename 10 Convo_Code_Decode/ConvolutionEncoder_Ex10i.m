@@ -1,3 +1,5 @@
+% Convolution Encoder
+
 x = input('Enter number of outputs:');
 f = input('Enter number of flip flops:');
 
@@ -15,3 +17,5 @@ fprintf('The convolution code is:\n');
 for i = 1:length(code)
     fprintf('%d', code(i));
 end
+
+% ip=>  5, 3, 5, 1, 0, 1, 1, 0

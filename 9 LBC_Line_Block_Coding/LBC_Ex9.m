@@ -60,3 +60,5 @@ else
         disp('Error pattern not found. Unable to correct.');
     end
 end
+
+%ip => 6 , 3, [1 1 1; 1 1 0; 0 1 1], [1 0 1 1 0 1]

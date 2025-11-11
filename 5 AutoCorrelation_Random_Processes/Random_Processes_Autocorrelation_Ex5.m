@@ -28,3 +28,5 @@ title('Autocorrelation Result');
 xlabel('Samples');
 ylabel('Amplitude');
 grid on;
+
+% ip - [2 3 4]

@@ -37,3 +37,5 @@ disp(['Entropy (Hx): ', num2str(Hx)]);
 
 Efficiency = (Hx / avglen) * 100;
 disp(['Efficiency: ', num2str(Efficiency), '%']);
+
+% ip : 5 , 1 , 0.1, 2, 0.2, 3, 0.3, 4, 0.2, 5, 0.2

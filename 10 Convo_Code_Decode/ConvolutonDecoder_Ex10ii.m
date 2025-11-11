@@ -1,3 +1,5 @@
+% Convolution Decoder
+
 x = input('Enter number of outputs: ');
 f = input('Enter number of flip flops: ');
 trellis = struct('numInputSymbols', 2, 'numOutputSymbols', 4, ...
@@ -20,3 +22,5 @@ for m = 1:n
     fprintf('%d', decoded(m));
 end
 fprintf('\n');
+
+%ip => 5, 3, 5, 1, 0, 1, 1, 0
